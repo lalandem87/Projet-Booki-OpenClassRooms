@@ -435,6 +435,22 @@ h3 {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    .formulaire {
+        width: 40%;
+    }
+
+    .partie-filtre {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .titre-filtre {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }

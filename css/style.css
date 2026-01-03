@@ -514,4 +514,150 @@ h3 {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+    body {
+        margin: 0;
+    }
+
+   .booki-logo {
+    object-fit: contain;
+   }
+    
+    .main-container {
+        padding: 0;
+    }
+
+    main {
+        display: flex;
+        gap: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    li {
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 16px;
+    }
+
+    li:hover {
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 16px;
+        width: 100%;
+    }
+    
+
+    .lien-entete:hover {
+        border-top: 0;
+        color: #0065FC;
+    }
+
+    
+    ul {
+        display: flex;
+        padding: 0;
+        gap: 0;
+        margin-top: 30px;
+    }
+
+    .p-h1 {
+        margin-top: 30px;
+    }
+    
+    
+    .partie-filtre {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 15px;
+        gap: 0;
+        
+    }
+
+    .titre-filtre {
+        margin-top: 20px;
+    }
+
+
+    .boutons-filtres {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        height: 100%;
+        margin-top: 15px;
+        
+    }
+
+    .bouton-filtres p {
+        font-size: 14px;
+        text-wrap: nowrap;
+    }
+    
+    button span {
+        font-size: 14px;
+    }
+
+
+    .location {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 35px;
+        margin-top: 15px;
+    }
+
+    .fa-location-dot {
+        width: 75px;
+    }
+
+
+    .rechercher {
+        display: none;
+    }
+
+    .loupe-awesome {
+        display: contents;
+
+    }
+
+    .fa-magnifying-glass:before, .fa-search:before {
+        color: white;
+        background: #0065FC;
+        padding: 16px;
+        border-radius: 15px;
+        display: flex;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        
+
+    }
+
+    .formulaire {
+        width: 100%;
+    }
+
+    .formulaire input {
+        width: 100%;
+        text-align: justify;
+        margin-left: 20px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .info-circle {
+        margin-top: 15px;
+        display: flex;
+    }
+    
+    .p-info-circle {
+        margin-bottom: 0;
+    }
+
+    .fa-info {
+        width: 10%;
+        border: 1px solid #D9D9D9;
+    }
 }

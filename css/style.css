@@ -64,6 +64,12 @@ a {
 
 /* PARTIE FORMULAIRE ET FILTRES */
 
+.titre-h1 {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
 .p-h1 {
     margin-top: 5px;
 }
@@ -106,6 +112,7 @@ a {
     align-items: center;
     gap: 10px;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .fa-circle-info {
@@ -134,7 +141,7 @@ form {
 
 .formulaire input {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     border: 0;
 }
 
@@ -378,6 +385,7 @@ h3 {
 }
 
 .h2-activites {
+    margin-top: 35px;
     margin-bottom: 40px;
 }
 

@@ -409,6 +409,24 @@ h3 {
 
 }
 
+/* FOOTER */
+
+.partie-footer {
+    background-color: #F2F2F2;
+    display: flex;
+    padding: 20px;
+
+}
+
+.h3-footer {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.partie-footer div {
+    width: 33%;
+}
+
 
 
 

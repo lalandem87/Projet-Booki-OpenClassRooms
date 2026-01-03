@@ -751,4 +751,14 @@ h3 {
     .card-activites-h3 {
         padding: 15px;
     }
+
+    /* FOOTER */
+
+    .partie-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 30px;
+        text-wrap: nowrap;
+    }
 }

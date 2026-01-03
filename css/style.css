@@ -438,8 +438,22 @@ h3 {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
+    .bouton-filtres{
+        font-size: 16px;
+    }
+
+    h1.titre-h1 {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    }   
+
     .formulaire {
         width: 40%;
+    }
+
+    .formulaire input {
+    font-size: 16px;
     }
 
     .partie-filtre {

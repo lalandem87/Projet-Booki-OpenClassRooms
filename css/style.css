@@ -722,4 +722,33 @@ h3 {
     .image-hebergement {
         width: 100%;
     }
+
+    /* ACTIVITES */
+
+    #activités {
+        margin-bottom: 50px;
+        padding: 30px;
+        width: 85%;
+    }
+
+    .section-activités {
+        margin-top: 30px;
+    }
+
+    .h2-activites {
+        margin-top: 10px;
+    }
+
+    .class-activités {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .images-activites {
+        height: 141px;
+    }
+
+    .card-activites-h3 {
+        padding: 15px;
+    }
 }

@@ -122,7 +122,7 @@ a {
 .formulaire {
     display: flex;
     gap: 24px;
-    width: 28%;
+    width: fit-content;
     height: 100%;
     border: 1px solid #F2F2F2;
     border-radius: 15px;
@@ -456,10 +456,6 @@ h3 {
     margin-top: 50px;
     margin-bottom: 0;
     }   
-
-    .formulaire {
-        width: 40%;
-    }
 
     .formulaire input {
     font-size: 16px;

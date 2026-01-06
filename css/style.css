@@ -99,8 +99,7 @@ a {
 .fa-info {
     border: 1px solid #D9D9D9;
     border-radius: 50px;
-    width: 24px;
-    height: 24px;
+    padding: 5px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -681,7 +680,6 @@ h3 {
     }
 
     .fa-info {
-        width: 10%;
         border: 1px solid #D9D9D9;
     }
 
